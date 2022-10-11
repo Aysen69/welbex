@@ -14,6 +14,8 @@ git submodule init
 
 git submodule update
 
+cp .env.examlpe .env
+
 docker-compose build
 
 docker-compose up
